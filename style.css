@@ -102,3 +102,22 @@ font-family: FuturaStd;
   position: relative
   z-index: 1;
 }
+
+@media screen and (max-width: 600px) {
+  ul {
+    display: flex;
+    justify-content: flex-start;
+
+  }
+
+  li {
+    width: 20%;
+    margin-left: 0;
+
+  }
+
+  .active {
+    margin-left: 0;
+  }
+
+}
