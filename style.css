@@ -159,6 +159,25 @@ font-family: FuturaStd;
   z-index: 1;
 }
 
+@media screen and (max-width: 600px) {
+  ul {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0;
+
+  }
+
+  li {
+    width: 20%;
+    margin-left: 0;
+
+  }
+
+  .active {
+    margin-left: 0;
+  }
+
+
 .contactform {
   margin-left: center;
   font-size: 20;
